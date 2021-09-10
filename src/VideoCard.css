@@ -1,0 +1,37 @@
+.videoCard{
+    color: white;
+    width: 500px;
+    transition: transform 50ms ease-in-out;
+    height: 400px;
+    padding: 20px;
+}
+.videoCard > img{
+    height: 300px;
+    object-fit: contain;
+    width: 500px;
+    transition: transform 10ms ease-in-out;
+}
+.videoCard > img:hover{
+    transform: scale(1.09);
+}
+.videoCard > h2{
+    padding-top: 10px;
+}
+
+.wow{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: space-between;
+    padding-left: 15px;
+    float: left;
+    opacity: 0;
+    visibility: 0;
+    /* background-color: blue; */
+    /* margin-right: 15px; */
+}
+.videoCard:hover > .wow{
+    opacity: 1;
+    visibility: 1;
+}
